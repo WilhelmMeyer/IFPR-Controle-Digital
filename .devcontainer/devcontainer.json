@@ -1,0 +1,24 @@
+{
+    "name": "Controle Digital - IFPR",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "postCreateCommand": "pip install numpy scipy matplotlib sympy control lcapy jupyterlab ipykernel && python -m ipykernel install --user --name python3",
+    "postAttachCommand": "echo 'Ambiente pronto. Abra um arquivo .ipynb para começar.'",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.vscode-jupyter-slideshow"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "workbench.editorAssociations": {
+                    "*.ipynb": "jupyter-notebook"
+                }
+            }
+        }
+    },
+    "forwardPorts": [8888]
+}
