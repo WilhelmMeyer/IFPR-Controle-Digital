@@ -51,15 +51,7 @@ O Codespace já vem configurado com as seguintes ferramentas:
 - Python 3.12
 - JupyterLab
 - NumPy, SciPy, Matplotlib
-- SymPy (cálculo simbólico)
-- lcapy (transformada Z simbólica)
-- python-control (funções de transferência, polos, zeros)
+- SymPy
+- lcapy
+- python-control
 
-## Horas gratuitas
-
-Cada conta GitHub possui uma cota mensal de uso gratuito do Codespaces:
-
-- **Conta Free:** 60 horas/mês (máquina de 2 cores)
-- **Student Developer Pack:** 90 horas/mês (máquina de 2 cores)
-
-Para a disciplina, esse limite é mais que suficiente. Lembre-se de parar o Codespace ao terminar para não consumir horas desnecessariamente.
